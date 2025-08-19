@@ -1,0 +1,26 @@
+# Core RAG & LLM
+langchain>=0.2.0
+openai>=1.0.0
+tiktoken>=0.7.0
+
+# Document parsing / chunking
+docling>=2.0.0
+docling-core>=2.0.0
+
+# Databricks & Spark
+databricks-connect>=15.0.0
+databricks-vectorsearch>=0.42.0
+databricks-sdk>=0.31.0
+databricks-langchain>=0.3.0
+pyspark>=3.5.0
+delta-spark>=3.1.0
+mlflow>=2.14.0
+
+# Data / utilities
+numpy>=1.26.0
+pandas>=2.1.0
+PyYAML>=6.0.0
+tqdm>=4.66.0
+
+# Optional (enable reranking)
+# flashrank>=0.2.5

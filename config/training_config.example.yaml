@@ -1,0 +1,16 @@
+# Example configuration for RAG Bank Annual Report project
+# Copy this file to training_config.yaml and fill in secrets/paths
+
+data:
+  file_path: /path/to/annual/reports
+  catalog_name: my_catalog
+  schema_name: finance_schema
+
+endpoint:
+  databricks_embeddings_model_endpoint: my-dbx-embeddings-endpoint
+  openai_embeddings_model_endpoint: text-embedding-3-large
+
+auth:
+  databricks_host: https://my-databricks-workspace.cloud.databricks.com
+  databricks_token: <personal-access-token>
+  openai_api_key: sk-...
