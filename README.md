@@ -19,8 +19,8 @@ scripts/
     vector_store.py            # Manage Vector Search indices (rebuild, sync) based on embeddings
 rag_app.ipynb              # Interactive experimentation / querying
 helper/
-   custom_chunker.py        # Custom hierarchical + hybrid chunker implementation
-   functions.py             # Databricks + retrieval utilities (index mgmt, retrievers, QA classes)
+   custom_chunker.py           # Custom hierarchical + hybrid chunker implementation
+   functions.py                # Databricks + retrieval utilities (index mgmt, retrievers, QA classes)
 config/
    training_config.example.yaml  # Example config (copy to training_config.yaml and edit)
 requirements.txt
